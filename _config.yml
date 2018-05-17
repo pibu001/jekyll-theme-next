@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: Minerva
 subtitle:
 description:
-author: John Doe
+author: Jongkyu Lee
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -16,7 +16,7 @@ date_format: '%Y-%m-%d'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 #url 이나 baseurl 있으면 다 지우고
 url:
-baseurl:
+baseurl: ""
 permalink: pretty
 
 # Pagination
