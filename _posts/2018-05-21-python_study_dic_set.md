@@ -36,7 +36,7 @@ Key-Value 형태로 항목을 가지는 자료구조입니다.
 
 #### 항목 찾기/추가/변경 [key]
 
-```
+```python
 >>> champion_dict['Lux']
 'the Lady of Luminosity'
 >>> champion_dict['Sona'] = 'Maven of the Strings'
@@ -45,7 +45,7 @@ Key-Value 형태로 항목을 가지는 자료구조입니다.
 
 #### 결합 (update)
 
-```
+```python
 >>> item_dict = {
 ... 'Doran\'s Ring': 400,
 ... 'Doran\'s Blade': 450,
@@ -62,7 +62,7 @@ Key-Value 형태로 항목을 가지는 자료구조입니다.
 
 #### 삭제 (del)
 
-```
+```python
 >>> del com_dict['Doran\'s Blade']
 >>> del com_dict['Doran\'s Ring']
 >>> del com_dict['Doran\'s Shield']
