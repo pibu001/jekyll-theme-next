@@ -538,9 +538,10 @@ StopIteration
 `yield`부분에서 멈춘 제네레이터 객체를 순회하기 위해서는 `__next__()` 함수를 실행해준다.
 
 
-## 실습
+## 실습  
 
-1. 매개변수로 문자열을 받고, 해당 문자열이 `red`면 `apple`을, `yellow`면 `banana`를, `green`이면 `melon`을, 어떤 경우도 아닐 경우 `I don't know`를 리턴하는 함수를 정의하고, 사용하여 `result`변수에 결과를 할당하고 `print`해본다.
+- 매개변수로 문자열을 받고, 해당 문자열이 `red`면 `apple`을, `yellow`면 `banana`를, `green`이면 `melon`을, 어떤 경우도 아닐 경우 `I don't know`를 리턴하는 함수를 정의하고, 사용하여 `result`변수에 결과를 할당하고 `print`해본다.
+
 ```python
 >>> def color_to_fruit(color):
 ...    if color == 'red':
@@ -560,8 +561,9 @@ banana
 melon
 I don't know
 ```
+<br>
+- 1번에서 작성한 함수에 `docstring`을 작성하여 함수에 대한 설명을 달아보고, `help(함수명)`으로 해당 설명을 출력해본다.  
 
-2. 1번에서 작성한 함수에 `docstring`을 작성하여 함수에 대한 설명을 달아보고, `help(함수명)`으로 해당 설명을 출력해본다.
 ```python
 >>> def color_to_fruit(color):
 ...    '매개변수에 색을 넣으면 해당 과일이 출력됩니다.'
@@ -578,9 +580,11 @@ Help on function color_to_fruit in module __main__:
 
 color_to_fruit(color)
     매개변수에 색을 넣으면 해당 과일이 출력됩니다.
-```      
-3. 한 개 또는 두 개의 숫자 인자를 전달받아, 하나가 오면 제곱, 두개를 받으면 두 수의 곱을 반환해주는 함수를 정의하고 사용해본다.
-```Python
+```
+<br>
+- 한 개 또는 두 개의 숫자 인자를 전달받아, 하나가 오면 제곱, 두개를 받으면 두 수의 곱을 반환해주는 함수를 정의하고 사용해본다.
+
+```python
 >>> def square_or_multiple(*args):
 ...    #print(len(args)
 ...    if len(args)==1:
@@ -592,7 +596,9 @@ color_to_fruit(color)
 >>> square_or_multiple(5, 6)
 30
 ```
-4. 두 개의 숫자를 인자로 받아 합과 차를 튜플을 이용해 동시에 반환하는 함수를 정의하고 사용해본다.
+<br>
+- 두 개의 숫자를 인자로 받아 합과 차를 튜플을 이용해 동시에 반환하는 함수를 정의하고 사용해본다.
+
 ```python
 >>> def sum_and_differance(a, b):
 ...    sum_result = a+b
@@ -601,7 +607,9 @@ color_to_fruit(color)
 >>> sum_and_differance(10,5)
 (15, 5)
 ```
-5. 위치인자 묶음을 매개변수로 가지며, 위치인자가 몇 개 전달되었는지를 print하고 개수를 리턴해주는 함수를 정의하고 사용해본다.
+<br>
+- 위치인자 묶음을 매개변수로 가지며, 위치인자가 몇 개 전달되었는지를 print하고 개수를 리턴해주는 함수를 정의하고 사용해본다.
+
 ```python
 >>> def count_args(*args):
 ...    print(len(args))
@@ -610,7 +618,9 @@ color_to_fruit(color)
 >>> print(count)
 5
 ```
-6. 람다함수와 리스트 컴프리헨션을 사용해 한 줄로 구구단의 결과를 갖는 리스트를 생성해본다.
+<br>
+- 람다함수와 리스트 컴프리헨션을 사용해 한 줄로 구구단의 결과를 갖는 리스트를 생성해본다.
+
 ```python
 >>> [f'{x} * {y} = {x*y}'.format(x, y, x*y) for x in range(2,10) for y in range(1,10)]
 ['2 * 1 = 2',
