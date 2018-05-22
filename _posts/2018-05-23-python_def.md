@@ -1,6 +1,6 @@
 ---
-title: [Python] 제어문
-description: if문, for문, while문, comprehension
+title: [Python] 함수
+description: 
 categories:
  - tutorial
 tags:
