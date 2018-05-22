@@ -1,6 +1,6 @@
 ---
-title: [Python] 함수
-description: 
+title: Python - 함수
+description:
 categories:
  - tutorial
 tags:
