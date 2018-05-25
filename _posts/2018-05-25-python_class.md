@@ -325,6 +325,9 @@ class Human:
         print(f'{self.name}이 {cat.name}을 불렀습니다.')
         cat.eat(self, food)
 
+    def refiil(self, food, amount):
+        food.food_fill(amount)
+
 
 class Cat:
     def __init__(self, name, breed, age, weight):
@@ -336,6 +339,18 @@ class Cat:
     def eat(self, human, food):
         print(f'{human.name}이 {self.name}에게 {food.brand}를 주려고 합니다.')
         food.feed(self)
+        self.fat(food)
+
+    def fat(self, food):
+        self.weight += food.one_amount
+        print(f'{self.name}가 한끼를 먹고 {food.one_amount}g 만큼 살이 쪘습니다.')
+        print(f'{self.name}의 몸무게는 {self.weight}g 입니다')
+        self.two_hour_after()
+
+    def two_hour_after(self):
+        print('==================')
+        self.weight -= 80
+        print(f'두시간 후 고양이의 몸무게가 {self.weight}가 되었습니다.')
 
 
 class Food:
@@ -347,9 +362,7 @@ class Food:
     def feed(self, cat):
         print(f'현재 남은 사료의 양은 {self.amount}g 입니다')
         self.food_pull()
-        cat.weight += self.one_amount
-        print(f'{cat.name}가 한끼를 먹고 {self.one_amount}g 만큼 살이 쪘습니다.')
-        print(f'{cat.name}의 몸무게는 {cat.weight}g 입니다')
+        #cat.weight += self.one_amount
 
     def food_pull(self):
         self.amount -= self.one_amount
@@ -358,6 +371,8 @@ class Food:
     def food_fill(self, amount):
         self.amount += amount
         print(f'사료를 {amount}g 채웠습니다.')      
+        print(f'현재 사료의 양은 {self.amount}g 입니다')
+
 ```
 
 ```python
@@ -367,16 +382,14 @@ class Food:
 >>> human.feed(mycat, food)
 강형욱이 냥냥이을 불렀습니다.
 강형욱이 냥냥이에게 유기농사료를 주려고 합니다.
-현재 남은 사료의 양은 3000g 입니다
-사료를 80g 꺼내고 남은 사료는 2920g입니다.
+현재 남은 사료의 양은 3760g 입니다
+사료를 80g 꺼내고 남은 사료는 3680g입니다.
 냥냥이가 한끼를 먹고 80g 만큼 살이 쪘습니다.
 냥냥이의 몸무게는 4080g 입니다
+==================
+두시간 후 고양이의 몸무게가 4000가 되었습니다.
 
->>> human.feed(mycat, food)
-강형욱이 냥냥이을 불렀습니다.
-강형욱이 냥냥이에게 유기농사료를 주려고 합니다.
-현재 남은 사료의 양은 2920g 입니다
-사료를 80g 꺼내고 남은 사료는 2840g입니다.
-냥냥이가 한끼를 먹고 80g 만큼 살이 쪘습니다.
-냥냥이의 몸무게는 4160g 입니다
+>>> human2.refiil(food2, 1000)
+사료를 1000g 채웠습니다.
+현재 사료의 양은 3920g 입니다
 ```
