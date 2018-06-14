@@ -1,5 +1,5 @@
 ---
-title: Python -  T아카데미 Python 강의 정리 chapter_1&2 
+title: Python -  T아카데미 Python 강의 정리 chapter 1 and 2 
 description:
 categories:
  - tutorial

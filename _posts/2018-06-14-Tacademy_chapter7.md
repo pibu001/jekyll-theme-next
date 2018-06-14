@@ -1,5 +1,5 @@
 ---
-title: Python -  T아카데미 Python 강의 정리 chapter7
+title: Python -  T아카데미 Python 강의 정리 chapter 7
 description:
 categories:
  - tutorial

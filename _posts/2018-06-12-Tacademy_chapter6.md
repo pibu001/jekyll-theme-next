@@ -1,5 +1,5 @@
 ---
-title: Python -  T아카데미 Python 강의 정리 chapter_6
+title: Python -  T아카데미 Python 강의 정리 chapter 6
 description:
 categories:
  - tutorial
