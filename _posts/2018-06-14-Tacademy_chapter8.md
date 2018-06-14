@@ -1,7 +1,10 @@
-
-***
-title : Python -  T아카데미 Python 강의 정리 8강
-***
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_8
+description:
+categories:
+ - tutorial
+tags:
+---
 
 ## 입출력
 

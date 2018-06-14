@@ -1,7 +1,11 @@
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_11
+description:
+categories:
+ - tutorial
+tags:
+---
 
-***
-title : Python -  T아카데미 Python 강의 정리 11강
-***
 
 ## 숫자 다루기
 

@@ -1,7 +1,10 @@
-
-***
-title : Python -  T아카데미 Python 강의 정리 3
-***
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_6
+description:
+categories:
+ - tutorial
+tags:
+---
 
 ## 모듈
 

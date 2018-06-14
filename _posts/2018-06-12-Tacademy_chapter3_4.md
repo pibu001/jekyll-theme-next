@@ -1,7 +1,11 @@
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_3&4
+description:
+categories:
+ - tutorial
+tags:
+---
 
-***
-title : Python -  T아카데미 Python 강의 정리 2 
-***
 
 ## 함수 
 

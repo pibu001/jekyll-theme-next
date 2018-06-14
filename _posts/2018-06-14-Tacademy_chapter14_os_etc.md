@@ -1,7 +1,10 @@
-
-***
-title : Python -  T아카데미 Python 강의 정리 12강
-***
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_14
+description:
+categories:
+ - tutorial
+tags:
+---
 
 ## 운영체제 관련
 

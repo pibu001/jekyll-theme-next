@@ -1,7 +1,10 @@
-
-***
-title : Python -  T아카데미 Python 강의 정리  
-***
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_1&2 
+description:
+categories:
+ - tutorial
+tags:
+---
 
 ## 파이썬 개요  
 

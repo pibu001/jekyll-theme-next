@@ -1,7 +1,11 @@
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_12_os.glob
+description:
+categories:
+ - tutorial
+tags:
+---
 
-***
-title : Python -  T아카데미 Python 강의 정리 12강
-***
 
 ## 파일 시스템 - os.glob 모듈
 

@@ -1,7 +1,10 @@
-
-***
-title : Python -  T아카데미 Python 강의 정리 12강
-***
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_12_database
+description:
+categories:
+ - tutorial
+tags:
+---
 
 ## 데이터베이스
 

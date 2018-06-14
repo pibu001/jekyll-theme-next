@@ -1,7 +1,11 @@
+---
+title: Python -  T아카데미 Python 강의 정리 chapter_9
+description:
+categories:
+ - tutorial
+tags:
+---
 
-***
-title : Python -  T아카데미 Python 강의 정리 9강
-***
 
 ## 문자열 method
 
