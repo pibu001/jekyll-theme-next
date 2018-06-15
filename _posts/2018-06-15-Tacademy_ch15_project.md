@@ -1,15 +1,10 @@
 ---
-
-title: Python -  T아카데미 정리 & 주가 parsing 프로젝트  
-
+title: Python - T아카데미 정리 & 주가 parsing 프로젝트  
 description:  
-
-categories: - tutorial  
-
+categories: 
+ - tutorial  
 tags:  
-
 ---
-
 
 ## 정적메서드, 클래스 메서드
 
