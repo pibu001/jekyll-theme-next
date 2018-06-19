@@ -160,9 +160,7 @@ message('Turtle Run', '[Space]')
 ```
 
 #### 게임 화면
-test
-![turtlerun_2_1](https://github.com/pibu001/pibu001.github.io/tree/master/_posts/image/modu_python/turtlerun_2_improvement.PNG "pic1")
-test2
-![turtlerun2_1_test](https://github.com/pibu001/pibu001.github.io/blob/master/_posts/image/modu_python/turtlerun_2_improvement.PNG?raw=true)
-![turtlerun_2_2](./image/modu_python/turtlerun_2_improvement_2.PNG)
-![turtlerun_2_3](./image/modu_python/turtlerun_2_improvement_3.PNG)
+
+![turtlerun_2_1](https://github.com/pibu001/pibu001.github.io/blob/master/_posts/image/modu_python/turtlerun_2_improvement.PNG?raw=true)
+![turtlerun_2_2](https://github.com/pibu001/pibu001.github.io/blob/master/_posts/image/modu_python/turtlerun_2_improvement_2.PNG?raw=true)
+![turtlerun_2_3](https://github.com/pibu001/pibu001.github.io/blob/master/_posts/image/modu_python/turtlerun_2_improvement_3.PNG?raw=true)

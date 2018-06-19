@@ -86,6 +86,7 @@ t.onkeypress(turn_right, 'Right')  # 이벤트핸들러 더욱 자세히 알아�
 t.listen()  # 이 코드로 인해 onkeypress 메소드가 동작
 play()
 ```
+
 #### 게임 화면
 
-![turtlerun](./image/modu_python/turtlerun_1.png)
+![turtlerun](https://github.com/pibu001/pibu001.github.io/blob/master/_posts/image/modu_python/turtlerun_1.PNG?raw=true)

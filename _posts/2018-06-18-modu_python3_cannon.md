@@ -9,7 +9,6 @@ tags:
 ## 거북이 대포 게임 만들기 (응용)
 
 - 대포를 발사해 목표 지점을 맞추는 게임
-- `t.onkeypress(turn_up, 'Up')` 명령어가 재귀 함수 돌아가는 중간에 끼어들 수 있는 배경(이벤트인듯) 자세히 알아둘 것
 
 ```python
 import random
@@ -80,4 +79,4 @@ t.onkeypress(fire, 'space')
 t.listen()
 ```
 
-![cannon_img](https://drive.google.com/open?id=1pQ7MYASxLryHiTOmvq_qaYwxMSQuu8Rw)
+![cannon_img](https://github.com/pibu001/pibu001.github.io/blob/master/_posts/image/modu_python/turtle_cannon.PNG?raw=true)
