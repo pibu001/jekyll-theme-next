@@ -160,7 +160,7 @@ message('Turtle Run', '[Space]')
 ```
 
 #### 게임 화면
-
-![turtlerun_2_1](./image/modu_python/turtlerun_2_improvement.png)
-![turtlerun_2_2](./image/modu_python/turtlerun_2_improvement_2.png)
-![turtlerun_2_3](./image/modu_python/turtlerun_2_improvement_3.png)
+test
+![turtlerun_2_1](./image/modu_python/turtlerun_2_improvement.PNG)
+![turtlerun_2_2](./image/modu_python/turtlerun_2_improvement_2.PNG)
+![turtlerun_2_3](./image/modu_python/turtlerun_2_improvement_3.PNG)
